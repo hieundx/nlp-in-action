@@ -14,5 +14,3 @@ corpus = [
 for sent in corpus:
     scores = sa.polarity_scores(sent)
     print('{:+}: {}'.format(scores['compound'], sent))
-
-print(sa.lexicon)
