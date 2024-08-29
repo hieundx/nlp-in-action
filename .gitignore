@@ -28,3 +28,9 @@ dist/
 .requirements
 
 .conda
+
+aclImdb*
+
+events.out*
+
+*.tsv
